@@ -8,6 +8,10 @@ public class ControlAfficherMarche {
 	public ControlAfficherMarche(Village village) {
 		this.village = village;
 	}
-
-	//TODO a completer
+	
+	public String [] donnerInfosMarche() {
+		String [] infosMarcher=village.donnerEtatMarche();
+		return infosMarcher;
+	}
+	
 }
