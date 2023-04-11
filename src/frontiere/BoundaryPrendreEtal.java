@@ -41,6 +41,7 @@ public class BoundaryPrendreEtal {
 		int numeroEtal=controlPrendreEtal.prendreEtal(nomVendeur, produit, nbp);
 		if (numeroEtal!=1)
 		{
+			numeroEtal+=1;
 			System.out.println("Le vendeur "+ nomVendeur+ " s'est installé à l'étal N° "+numeroEtal+" \n");
 		}
 		

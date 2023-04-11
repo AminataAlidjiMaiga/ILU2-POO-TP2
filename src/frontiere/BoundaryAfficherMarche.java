@@ -15,10 +15,9 @@ public class BoundaryAfficherMarche {
 			System.out.println("Le marché est vide, revenez plus tard. \n");
 		}
 		else {
-			StringBuilder chaine = new StringBuilder();
-			chaine.append(nomAcheteur+" , vous trouverez au marché : \n");
+			System.out.println(nomAcheteur+" , vous trouverez au marché : \n");
 			for (int i=0; i<tab.length;i+=3) {
-				chaine.append("- "+tab[i]+" qui vend"+tab[i+1]+" "+ tab[i+2]+ "\n");
+				System.out.println("- "+tab[i]+" qui vend "+tab[i+1]+" "+ tab[i+2]+ "\n");
 			}
 		}
 	}
